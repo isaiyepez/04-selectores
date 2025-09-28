@@ -1,0 +1,32 @@
+ul li:nth-child(3) {
+    border: 2px solid red;
+}
+
+/* Si quisieras aplicarlo a varios al mismo tiempo:
+ */
+
+ /* ul li:nth-child(1), 
+ ul li:nth-child(3), 
+ ul li:nth-child(5) {
+    border: 2px solid red;
+} */
+
+/* Para aplicar en nones: */
+
+/* Opcion 1: hacer la operación de 
+    2*0 + 1, 
+    2*1 + 1, etc*/
+
+ul li:nth-child(2n + 1) {
+    background-color: blue;
+} 
+
+/* Opcion 2: usar ODD */
+
+ul li:nth-child(odd) {
+    background-color: blue;
+}
+
+ul li:nth-child(3n + 1) {
+    background-color: yellow;
+}

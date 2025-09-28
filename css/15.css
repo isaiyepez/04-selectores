@@ -1,0 +1,10 @@
+.primer-letra::first-letter {
+    font-size: 200%;
+    color: #3498db;
+    font-weight: bold;
+}
+.primer-linea::first-line {
+    font-size: 120%;
+    color: #e74c3c;
+    font-weight: bold;
+}

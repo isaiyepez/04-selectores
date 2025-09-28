@@ -1,0 +1,21 @@
+/* 
+
+    Este codigo es sustituido por el NOT:
+
+.heading,
+.descripcion,
+.oferta {
+    color: blue;
+} */
+
+p:not(.texto) {
+    color: blue;
+}
+
+/* 
+    Ejemplo para multiples clases:
+.heading:not(.descripcion):not(.oferta) {
+    color: blue;
+} 
+    
+*/

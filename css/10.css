@@ -1,0 +1,19 @@
+a[href="https://www.google.com"], input[type="tel"] {
+    /* 
+    Otros posibles valores:
+
+    a[href="http"]  
+    
+    Todo lo que empiece con http: 
+    a[href^="http"]
+
+    Todo lo que termine con .com
+    a[href$=".com"]
+    
+    Por ejemplo, para el input de tipo tel:
+    input[type="tel"]
+
+    */
+
+    color: red;
+}
